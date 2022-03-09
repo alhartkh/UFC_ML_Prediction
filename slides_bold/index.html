@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Capstone</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-helvetica theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="rgb(0, 0, 0)" data-id="f05d3bf04caad59b0d0c90e0b7105507"><div class="sl-block" data-block-type="text" style="width: 800px; left: 79px; top: 70px; height: auto;" data-block-id="7432ca92f7ad5ad2d45005b4d88a9e55">
+    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 159px !important; transform: none !important; transform-origin: 400px 79.125px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 165px !important;"></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 386px !important; transform: none !important; transform-origin: 400px 192.75px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 385px !important;"></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 555px !important; transform: none !important; transform-origin: 400px 277.125px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 554px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h1" style="z-index: 11; font-size: 200%; text-align: left; color: rgb(0, 0, 0); line-height: 0.975; letter-spacing: -0.1em; padding: 6px;" data-has-line-height="" data-has-letter-spacing="" dir="ui" data-placeholder-text="Text" data-gramm="false">
+<h1><strong>     </strong></h1>
+
+<h3><strong>ML Fight Win/Loss Binary Classification</strong></h3>
+
+<p> </p>
+</div>
+</div>
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 524px; height: auto;" data-name="text-d18e72" data-block-id="21954f576c1e7b48be6c1dd66e5cd953">
+    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 13 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 68px !important; transform: none !important; transform-origin: 400px 33.9336px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 68px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="z-index: 12; text-align: left; padding: 8px; font-size: 70%;" data-placeholder-text="Text" data-gramm="false">
+<h2>Khalid Alharthi</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="shape" style="width: 800px; height: 454px; left: 80px; top: 70px;" data-name="shape-a85c0a" data-block-id="f6af0f1ad55a34d732c90566d4c214ee"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 800 454"><rect width="800" height="454" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-0c5fff" data-block-id="6d5b7681398f5f17dbb4fca5a6a7ac6b" style="width: 323.2px; height: 110.017px; left: 88.3789px; top: 114.36px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="2500" data-natural-height="851" data-lazy-loaded="" data-src="bold/367676fc27a6849cfbef8727bdaf5f04.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="20385af87691a6bb151d9874ac067782">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 830px; left: 50px; top: 51.5px; height: auto;" data-name="text-e07d03" data-block-id="cc6b544ce2786e5217cccd8b6eb7eb66"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Agenda</strong></h2>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-825dd5" style="height: auto;" data-block-id="5e3b39ef4ead821bdaabca66df7f2ae5"><div class="sl-block-content sl-block-group-content" style="transform-origin: 170.579px 297.5px; z-index: 11;">
+<div class="sl-block" data-block-type="shape" style="width: 241.158px; height: 195px; left: 50px; top: 200px;" data-name="shape-aee9ec" data-block-id="240d595f7c4c626f17af6ce20097859c"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 12;" href="#/process"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="241.158" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 50px; top: 332px; height: auto;" data-name="text-45906b" data-block-id="49079f65be2eea5dd785bb3edd7e9429"><a class="sl-block-style" style="z-index: 13;" href="#/process"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 13; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><span>Introduction</span></p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 50px; top: 200px; height: auto;" data-name="text-56e513" data-block-id="51ca155f0738f4b0df22f0c6637340fd"><a class="sl-block-style" style="z-index: 14;" href="#/process"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 14; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#1</span></strong></p>
+</div></a></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-288568" data-block-id="2b9942454d54c285e7435439c6b3b7f4"><div class="sl-block-content sl-block-group-content" style="transform-origin: 439.658px 297.5px; z-index: 15;">
+<div class="sl-block" data-block-type="shape" style="width: 240.684px; height: 195px; left: 319.316px; top: 200px;" data-name="shape-ebe059" data-block-id="8451dfceaeebe3dbba23634b92a16196"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 16;" href="#/pros-cons"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="240.684" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 240.684px; left: 319.316px; top: 332px; height: auto;" data-name="text-8566c5" data-block-id="dec6c4893dad6ae20f71a95005aa76c9"><a class="sl-block-style" style="z-index: 17;" href="#/pros-cons"><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 24 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 101px !important; transform: none !important; transform-origin: 114px 50.6094px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 101px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 17; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p>Data Sources</p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 240.684px; left: 319.316px; top: 200px; height: auto;" data-name="text-1246c3" data-block-id="e3d07147b4e4730e3d30033062dd3c28"><a class="sl-block-style" style="z-index: 18;" href="#/pros-cons"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 18; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#2</span></strong></p>
+</div></a></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-d3548b" data-block-id="e89a580e8ad851ff0237db87c3b58c4b"><div class="sl-block-content sl-block-group-content" style="transform-origin: 706.579px 297.5px; z-index: 19;">
+<div class="sl-block" data-block-type="shape" style="width: 241.158px; height: 195px; left: 586px; top: 200px;" data-name="shape-938bf5" data-block-id="dffaf6ccd005d1af08edd6408af2ae23"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 20;" href="#/team"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="241.158" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 586px; top: 332px; height: auto;" data-name="text-58342f" data-block-id="8163ce3f6f7046fbf8b9c8a875a4a43d"><a class="sl-block-style" style="z-index: 21;" href="#/team"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 21; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><span style="color:rgb(0, 0, 0)">Data Cleaning</span></p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 586px; top: 200px; height: auto;" data-name="text-54cf88" data-block-id="882b9ffffa2202513bfccbfd952e565b"><a class="sl-block-style" style="z-index: 22;" href="#/team"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 22; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#3</span></strong></p>
+</div></a></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-bde822" data-block-id="207ba8811919e5125941168712316985"><div class="sl-block-content sl-block-group-content" style="transform-origin: 170.579px 532.5px; z-index: 23;">
+<div class="sl-block" data-block-type="shape" style="width: 241.158px; height: 195px; left: 50px; top: 435px;" data-name="shape-f862e2" data-block-id="e16da40737ec8f900213bae0fb412a30"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 24;" href="#/timeline"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="241.158" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 50px; top: 567px; height: auto;" data-name="text-87394b" data-block-id="3abd52eda337f78ea0edc7c2c898c39e"><a class="sl-block-style" style="z-index: 25;" href="#/timeline"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 25; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><span>Modeling</span></p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 50px; top: 435px; height: auto;" data-name="text-4108a1" data-block-id="39c8b462d43d8c56613b1148591e9e29"><a class="sl-block-style" style="z-index: 26;" href="#/timeline"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 26; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#4</span></strong></p>
+</div></a></div>
+</div></div>
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-block-id="c02068cd570cbb75caf45b590b4b7b39" data-name="group-b280fb"><div class="sl-block-content sl-block-group-content" style="transform-origin: 706.579px 532.5px; z-index: 27;">
+<div class="sl-block" data-block-type="shape" style="width: 241.158px; height: 195px; left: 586px; top: 435px;" data-origin-id="2559d3ab413b84f0db8822d53732892b" data-block-id="87d5f655707d446cc4d69d218bc160d3" data-name="shape-f2653c"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 28;" href="#/process"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="241.158" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 586px; top: 567px; height: auto;" data-origin-id="a151da51654f7e7d405ced551a9f098e" data-block-id="b74efb4bc0285aac38fee75121526b23" data-name="text-c418cf"><a class="sl-block-style" style="z-index: 29;" href="#/process"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 29; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><span>Conclusion</span></p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 586px; top: 435px; height: auto;" data-origin-id="5fa0391f4aad4398a2927a5b35ba0fe0" data-block-id="78269fef8604890a139884354953d226" data-name="text-100e6a"><a class="sl-block-style" style="z-index: 30;" href="#/process"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 30; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#6</span></strong></p>
+</div></a></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-block-id="f5f02883b0a2931de9d76e86cfa3f7b1" data-name="group-81826d"><div class="sl-block-content sl-block-group-content" style="transform-origin: 439.658px 532.5px; z-index: 31;">
+<div class="sl-block" data-block-type="shape" style="width: 241.158px; height: 195px; left: 319.079px; top: 435px;" data-origin-id="87d5f655707d446cc4d69d218bc160d3" data-block-id="7ae5201a665df2274627e587115347e2" data-name="shape-df3a05"><a class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 32;" href="#/process"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 241 195"><rect width="241.158" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 319.079px; top: 567px; height: auto;" data-origin-id="b74efb4bc0285aac38fee75121526b23" data-block-id="691e5d6024dd9175c9f1229c42280cad" data-name="text-54f6ca"><a class="sl-block-style" style="z-index: 33;" href="#/process"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 33; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p>Challenges</p>
+</div></a></div>
+<div class="sl-block" data-block-type="text" style="width: 241.158px; left: 319.079px; top: 435px; height: auto;" data-origin-id="78269fef8604890a139884354953d226" data-block-id="5b98394ab8e344b17894e49078d6e35d" data-name="text-ebd8d9"><a class="sl-block-style" style="z-index: 34;" href="#/process"><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 35 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 241px !important; height: 63px !important; transform: none !important; transform-origin: 120.578px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 241px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 34; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p><strong><span>#5</span></strong></p>
+</div></a></div>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a5b50b" data-block-id="8a3ade70deade85dcf02708ad872d4f2" style="width: 122.67px; height: 37.4912px; left: 98.665px; top: 630px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 35;"><img style="" data-natural-width="1600" data-natural-height="489" data-lazy-loaded="" data-src="bold/dc3322541f9446bcb4be85c1cd9bedea.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 105.45px; height: 32.228px; left: 520.718px; top: 167.772px; min-width: 1px; min-height: 1px;" data-block-id="7886552b6b5695f492ff5aee7e47eb89" data-name="image-13e488"><div class="sl-block-style" style="z-index: 36; transform: rotate(180deg);"><div class="sl-block-content" style="z-index: 36;"><img style="" data-natural-width="1600" data-natural-height="489" data-lazy-loaded="" data-src="bold/dc3322541f9446bcb4be85c1cd9bedea.png"></div></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-0dd556" data-block-id="cc32bb042b8e81781db14a126c598fa3" style="height: auto; width: 212.5px; left: 467.193px; top: 128.772px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 37;">
+<p>Solution Steps</p>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="c7fc13d2193d0b0196835e5d23a768ab">
+
+
+<div class="sl-block" data-block-type="shape" style="width: 800px; height: 454px; left: 80px; top: 123px;" data-name="shape-a85c0a" data-block-id="a783879ea0a480d80615b7b399fc05ca"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 800 454"><rect width="800" height="454" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b0f00c" style="height: auto; width: 714.461px; left: 122.769px; top: 272px;" data-block-id="c4ae23d05abc6f66ce3e04f561de7a9a">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 715px !important; height: 156px !important; transform: none !important; transform-origin: 357.23px 78px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 714px !important; height: 156px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm="false">
+<h1><span style="color:#000000"><span style="font-size:1.6em">Introduction</span></span></h1>
+</div>
+</div></section><section data-background-color="rgb(0, 0, 0)" data-id="ef2f14da1f51bf97da1c774e60a0ad70"><div class="sl-block" data-block-type="image" data-name="image-306d72" style="width: 197.511px; height: 350px; left: 0px; top: 350px; min-width: 1px; min-height: 1px;" data-block-id="f7cad268613224877ecfb02969fc461c"><div class="sl-block-content" style="z-index: 10;"><img data-natural-width="1283" data-natural-height="1246" style="left: -162.489px; top: 0px; width: 360px; height: 350px;" data-lazy-loaded="" data-crop-x="0.451358" data-crop-y="0" data-crop-width="0.548043" data-crop-height="1" data-src="bold/fbd2b64afe5e97c07e4412d87983d0a0.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-adf11b" style="width: 480.894px; height: 340.931px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-block-id="0660536898667e3e4812e6c57697df67"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1629" data-natural-height="618" style="left: -209px; top: 0px; width: 899px; height: 341px;" data-lazy-loaded="" data-crop-x="0.232441" data-crop-y="0" data-crop-width="0.535119" data-crop-height="1" data-src="bold/861a8beb21976fa7bcde1c9f68021acb.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a6a0ab" style="width: 273.489px; height: 211.975px; left: 206.511px; top: 488.025px; min-width: 1px; min-height: 1px;" data-block-id="1244ca5076189c96e049b68b2ac93873"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="220" data-natural-height="311" style="left: 0px; top: -3px; width: 273px; height: 387px;" data-lazy-loaded="" data-crop-x="0" data-crop-y="0.007752" data-crop-width="1" data-crop-height="0.548286" data-src="bold/8db735391dca878885c42d5aa23fa2b3.jpeg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-0acffb" style="width: 273.619px; height: 128.043px; left: 206.511px; top: 349.855px; min-width: 1px; min-height: 1px;" data-block-id="4718585119dbbc0cffe015ab7c48ec50"><div class="sl-block-content" style="z-index: 13;"><img style="left: 0px; top: -73px; width: 274px; height: 274px;" data-natural-width="900" data-natural-height="900" data-crop-x="0" data-crop-y="0.26602" data-crop-width="1" data-crop-height="0.467961" data-lazy-loaded="" data-src="bold/c42ed9548534ed7d2a002631fb7c039f.jpeg"></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 425.033px; left: 511px; top: 195px; height: auto;" data-name="text-bad4e5" data-block-id="623842fdae241bdfee358068c356b486"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 14; padding: 10px; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Topic Choice</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 425.033px; left: 511px; top: 282px; height: auto;" data-name="text-d18e72" data-block-id="4dd21addc681428a8b16e19d38d3349f"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 15; text-align: left; padding: 10px;" data-placeholder-text="Text">
+<p>I have been a fan of WWE  for as long as I remember. Until I knew it was fake :(. Just like many of you, choosing the capstone topic was very easy (not) for me, but overall I was glad about the result because I challenged myself a lot in this project. And to me</p>
+
+<p>Challenge = Growth</p>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="16d43c8aac10104d4d38e93c933ae3ee">
+
+<div class="sl-block" data-block-type="text" style="width: 415px; left: 0px; top: 204px; height: auto;" data-name="text-bad4e5" data-block-id="605e576bdbb416aeb7b91f5e2a0c2c85">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 393px !important; height: 87px !important; transform: none !important; transform-origin: 196.5px 43.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 393px !important; height: 86px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; padding: 10px; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Goal/Question</strong></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 393px; left: 22px; top: 291px; height: auto;" data-name="text-d18e72" data-block-id="930d2df2a3265d4eae3389fa6e93ad63">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 13 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 393px !important; height: 293px !important; transform: none !important; transform-origin: 196.5px 146.5px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 393px !important; height: 293px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 12; text-align: left; padding: 10px;" data-placeholder-text="Text" data-gramm="false">
+<p>1- Can a model predict the winner of an MMA fight based on certain features?</p>
+
+<p>2- Which of those feature seems to have the most effect on those model?</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" data-name="image-6b6fad" data-block-id="d6b230592c4a6240ca4238b540cae31a" style="width: 525px; height: 698.687px; left: 435px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 13;" data-maintain-ar="false"><img style="" data-natural-width="903" data-natural-height="1350" data-lazy-loaded="" data-src="bold/434d26587233d96c950132e00db672c5.jpeg"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="c812df8b5c26dd3a9c01d924e1b7a67d">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 587.827px; height: auto;" data-name="text-c29943" data-block-id="7d17c8827d72d170617e7d5774abcd40">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 13 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 12; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Expectations</strong></h2>
+</div>
+</div>
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-146e06" style="height: auto;" data-block-id="c37b6f162e5b90811ca1ec8e0fe46798"><div class="sl-block-content sl-block-group-content" style="transform-origin: 160px 478.39px; z-index: 14; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 119px; left: 48px; top: 418.89px;" data-name="shape-8fd0b8" data-block-id="36cf1291558b566a755475fccca00012"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 119"><rect width="224" height="119" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 80px; top: 480.89px; height: auto;" data-name="text-03e418" data-block-id="0794ad389f556d83d1bf5e48c67d36e1"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 16; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>No strikes</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 80px; top: 443.89px; height: auto;" data-name="text-b21b2c" data-block-id="267d5815fe34e45347b67c1777dcf29a"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 17; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Wrestling</h2>
+</div></div>
+</div></div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-2081df" data-block-id="3239748afca96a2dfeda0e54eb29f4d4"><div class="sl-block-content sl-block-group-content" style="transform-origin: 480px 478.89px; z-index: 18; transition-duration: 0.6s; transition-delay: 0.5s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 120px; left: 368px; top: 418.89px;" data-name="shape-6003be" data-block-id="9354447a06f9ea1df6330220c1f4d8ed"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 120"><rect width="224" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 400px; top: 480.89px; height: auto;" data-name="text-d78035" data-block-id="59211a7a84e5f136e8c7a37fbffaa164"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 20; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>Hands only</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 400px; top: 443.89px; height: auto;" data-name="text-84f3e6" data-block-id="c45582cf1341abd5e4e2b4756ef1ca28"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 21; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Boxing</h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-000099" data-block-id="54d5847696d6e408fb383f1be12b3772"><div class="sl-block-content sl-block-group-content" style="transform-origin: 806.651px 478.89px; z-index: 22; transition-duration: 0.6s; transition-delay: 0.7s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 120px; left: 694.651px; top: 418.89px;" data-name="shape-f12dda" data-block-id="6943b5a35111d9c34e5819ade0749a5a"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 23;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 120"><rect width="224" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 726.651px; top: 480.89px; height: auto;" data-name="text-19af33" data-block-id="7179c6724fa6d9c2bae0691cd13cff46"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 24; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>Kicks based</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 160px; left: 726.651px; top: 443.89px; height: auto;" data-name="text-41de68" data-block-id="cd7ab03adaea6e0dc21fc7f9072cbf48"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 25; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Taekwondo</h2>
+</div></div>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 280.292px; height: 420px; left: 19.854px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-5c77aa" data-block-id="c6f92d0d71c419c7f5d59ec169ed448d"><div class="sl-block-content" style="z-index: 11; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-down"><img style="left: 0px; top: 0px; width: 280px; height: 420px;" data-natural-width="1920" data-natural-height="2876" data-lazy-loaded="" data-crop-x="0.000173" data-crop-y="0" data-crop-width="0.999654" data-crop-height="1" data-src="bold/098886a5a4e766bb226ea6768df54302"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-2ff1b8" data-block-id="d81222893410c119c9f6364aced1b2f4" style="width: 280.292px; height: 420px; left: 19.854px; top: -1.11px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 26;" data-maintain-ar="false"><img style="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="bold/f27dda2af69c3dfe28febbc92c95b1a7.jpeg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-d0af46" data-block-id="2b8481f9e044b32c2f5486bdbc58c6f5" style="width: 280.443px; height: 420.11px; left: 339.779px; top: -1.11px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 27;" data-maintain-ar="false"><img style="" data-natural-width="1119" data-natural-height="1350" data-lazy-loaded="" data-src="bold/5a975347162649e5035758079671c4a9.jpeg"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-d49ab9" data-block-id="fea2d7c024187a87cde8f83e780b1fa0" style="width: 280.443px; height: 420px; left: 666.43px; top: 1.11px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 28;" data-maintain-ar="false"><img style="" data-natural-width="1113" data-natural-height="1350" data-lazy-loaded="" data-src="bold/a55867cbcbf32d007f120cd2e346429a.jpeg"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="8ddfd04b08aa70809bac3daee2f90a5c"><div class="sl-block" data-block-type="line" data-name="line-238933" style="width: auto; height: auto; left: 0px; top: 350px;" data-block-id="b56644d8767268b64d617d7d392e1918"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="960" data-line-y2="0" data-line-color="#f2ede8" data-line-start-type="square" data-line-end-type="square" style="z-index: 10;" data-line-width="4px" data-line-style="solid"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="960" height="1" viewbox="0 0 960 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="6" y1="0" x2="954.0375" y2="0"></line><line class="line-element" stroke="#f2ede8" stroke-width="4" x1="6" y1="0" x2="954.0375" y2="0"></line><rect width="12" height="12" fill="#f2ede8" x="-6" y="-6" transform="translate(6,0) rotate(90)"></rect><rect width="12" height="12" fill="#f2ede8" x="-6" y="-6" transform="translate(954.0375,0) rotate(90)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-f42613" style="height: auto;" data-block-id="0cffbbd3d8ba50ce52d337e5192c9bc6"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 109.834px 484.75px; z-index: 11;" data-fragment-index="0">
+<div class="sl-block" data-block-type="shape" data-name="shape-fec14c" style="width: 24px; height: 24px; left: 94px; top: 338px;" data-block-id="8fb35afd6bfc72215e7577026f673a2a"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-ac1f70" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 106px; top: 350px;" data-block-id="2134ba98c5a486889a16f16908bcc14c"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 16;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 10px; top: 458.5px; height: auto;" data-name="text-2daff8" data-block-id="280dad9764d8a92fb1aec9cf9c4345cb"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 19; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>1.</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 10px; top: 514.5px; height: auto;" data-name="text-3744dd" data-block-id="a6017d18288316031d43a0b02bca9194">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 19 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 117px !important; transform: none !important; transform-origin: 99.832px 58.4961px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 117px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 18; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Choose what I want to predict exactly. (Decision round scores, fight general outcome, or fight win/lose outcome) (5%)</p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-2d96a5" style="height: auto;" data-block-id="199c049f8f40faa2d443a726b3dc7fd8"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 244.999px 219.25px; z-index: 20;" data-fragment-index="1">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 233px; top: 338px;" data-name="shape-05b447" data-block-id="d34200d6b73ae7eab28ae9e2559c4654"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 26;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 245px; top: 255.5px;" data-name="line-aee647" data-block-id="c5df35c1aea46f701e276acb224669d0"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 25;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 145.166px; top: 76.5px; height: auto;" data-name="text-2a78c2" data-block-id="c109ebf1c534be331d13fa6b699f67f2"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 27; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>2.</strong></h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 145.166px; top: 130.5px; height: auto;" data-name="text-4e1d6f" data-block-id="87a8850196de8047c4a3ef1ba0f1939a">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 29 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 47px !important; transform: none !important; transform-origin: 99.832px 23.3984px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 47px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 28; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Collect the data that fits my goal/question (30%)</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-866a7e" data-block-id="865dd77ad02a4462bc814896c8b3090e"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 393px 473.25px; z-index: 29;" data-fragment-index="2">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 377.167px; top: 338px;" data-name="shape-238df7" data-block-id="d03c931fe6111dc017a108461c0c8d8e"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 35;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 389.167px; top: 350px;" data-name="line-dff621" data-block-id="918332e46b884863b351cf96c97449b6"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 34;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 293.167px; top: 458.5px; height: auto;" data-name="text-77a191" data-block-id="cb30e8fa5bf2cdd75d1d627cca35216d"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 37; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>3.</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 293.167px; top: 514.5px; height: auto;" data-name="text-c80f6c" data-block-id="99fe6ffa7fd16635b6aa89a5f6a45c1e">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 37 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 94px !important; transform: none !important; transform-origin: 99.832px 46.7969px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 93px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 36; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Clean that data to fit my modeling process + Feature engineering (30%) </p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-e39e51" data-block-id="daa7b890e667cdcd0545be44b1f94b78"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 702.833px 461.25px; z-index: 38;" data-fragment-index="4">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 687px; top: 338px;" data-name="shape-fabd4e" data-block-id="accd7b0870cae7d0e35d132ab3cbbdbe"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 44;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 699px; top: 350px;" data-name="line-4540d1" data-block-id="f5a698eda4a189d49fda2798318efa76"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 43;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 603px; top: 458.5px; height: auto;" data-name="text-7e71af" data-block-id="7d52350d775cea8967b0c9b539b79999"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 46; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>5.</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 603px; top: 514.5px; height: auto;" data-name="text-9b7ec7" data-block-id="2cb4fb03052e709b76c9dcfaaa329814">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 46 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 70px !important; transform: none !important; transform-origin: 99.832px 35.0977px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 70px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 45; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Model selection, training, evaluation, and parameter tuning (%20)</p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-9531dd" data-block-id="86dba3d8480b72c4744c3d0dce2e19ad"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 542px 219.25px; z-index: 47;" data-fragment-index="3">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 530.001px; top: 338px;" data-name="shape-96b869" data-block-id="41f18d23fc41f6339e834ec2e4b8b8a8"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 53;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 542.001px; top: 255.5px;" data-name="line-545aef" data-block-id="618960cd6bb9baced7ab6ed5aa17b2d6"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 52;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 442.167px; top: 76.5px; height: auto;" data-name="text-eba752" data-block-id="133c0f8162762f83d3ed7e2e95b41e4f"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 54; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>4.</strong></h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 442.167px; top: 130.5px; height: auto;" data-name="text-69da15" data-block-id="583dd0d158b4d072f9138a4b8d36c0a1">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 56 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 24px !important; transform: none !important; transform-origin: 99.832px 11.6992px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 23px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 55; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Exploratory Data Analysis (5%)</p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-f747fd" data-block-id="a0f67aea90eff43b4b124a65998b0767"><div class="sl-block-content sl-block-group-content fragment" style="transform-origin: 839.001px 219.25px; z-index: 56;" data-fragment-index="5">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 827.001px; top: 338px;" data-name="shape-c906ee" data-block-id="107cdd88a1dd1ee280bfd78b685cc73f"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 62;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 839.001px; top: 255.5px;" data-name="line-a36683" data-block-id="608e87ca971b3fcfe3c64c37a4697453"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 61;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 739.167px; top: 76.5px; height: auto;" data-name="text-4bda9b" data-block-id="485c49530b51422cc72a5b4ddbec7540"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 63; font-size: 70%;" data-placeholder-text="Text">
+<h2><strong>6.</strong></h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 739.167px; top: 130.5px; height: auto;" data-name="text-452c90" data-block-id="9529b7d22d6fad0d844ecf4b87e9a2fe"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 64; text-align: center; font-size: 60%;" data-placeholder-text="Text">
+<p>Presenting the project (%10) </p>
+</div></div>
+</div></div></section><section class="stack" data-id="df356116d3f934d3637e08793b6e8261"><section data-background-color="rgb(0, 0, 0)" data-id="b1d133c202413fca82ea89bc3bd2da4c">
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="shape" style="width: 453px; height: 600px; left: 17px; top: 37.5px;" data-name="shape-c138f8" data-block-id="5680ba5765a3e44d883e05ba228d0ce3"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 453 600"><rect width="453" height="600" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 453px; left: 17px; top: 123.5px; height: auto;" data-name="text-c29943" data-block-id="e9fdd7c8ebcbb33a12b071f8a3cc2e5a">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 117px !important; transform: none !important; transform-origin: 226.5px 58.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 116px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; color: rgb(0, 0, 0); padding: 25px; line-height: 1.17;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Fighters Stats</strong></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="shape" data-name="shape-6be669" style="width: 54px; height: 54px; left: 43px; top: 59.5px;" data-block-id="d3425759eea26f66563e89877284bf88"><div class="sl-block-content" data-shape-type="symbol-plus-circle" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 32 32"><g class="shape-element" fill="rgb(0, 0, 0)" data-viewbox="0 0 32 32"><path d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM24 18h-6v6h-4v-6h-6v-4h6v-6h4v6h6v4z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 453px; left: 17px; top: 240.5px; height: auto;" data-name="text-d18e72" data-block-id="c37f768d861e0862948c6ba8e2243850">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 14 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 168px !important; transform: none !important; transform-origin: 226.5px 84.043px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 168px !important;"><canvas class="lt-highlighter__canvas" width="83" height="36" style="display: none; top: 117px !important; left: 79px !important;"></canvas></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 14 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 168px !important; transform: none !important; transform-origin: 226.5px 84.043px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 168px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 13; text-align: left; line-height: 1.69; color: rgb(0, 0, 0); padding: 8px;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li>Tool = Scrapy spider crawler</li>
+	<li>Wasn't easy to crawl</li>
+	<li>A loooot of cleaning!</li>
+</ul>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 453px; left: 487px; top: 123.5px; height: auto;" data-name="text-e6f20f" data-block-id="d865a38ee3a8c21d5dc63026ad53d800">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 15 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 117px !important; transform: none !important; transform-origin: 226.5px 58.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 116px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 14; padding: 25px; line-height: 1.17;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Events Stats</strong></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="shape" style="width: 54px; height: 54px; left: 513px; top: 59.5px;" data-name="shape-4a931b" data-block-id="5d4bf89b4b9a51be2c951a1c4de97711"><div class="sl-block-content" data-shape-type="symbol-x-circle" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 32 32"><g class="shape-element" fill="rgb(255, 255, 255)" data-viewbox="0 0 32 32"><path d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM23.914 21.086l-2.828 2.828-5.086-5.086-5.086 5.086-2.828-2.828 5.086-5.086-5.086-5.086 2.828-2.828 5.086 5.086 5.086-5.086 2.828 2.828-5.086 5.086 5.086 5.086z"></path></g></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 453px; left: 487px; top: 240.5px; height: auto;" data-name="text-101edc" data-block-id="0137b4160c9cca5dec547d56e9960a02">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 17 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 219px !important; transform: none !important; transform-origin: 226.5px 109.391px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 219px !important;"><canvas class="lt-highlighter__canvas" width="95" height="36" style="display: none; top: 16px !important; left: 52px !important;"></canvas></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 17 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 453px !important; height: 168px !important; transform: none !important; transform-origin: 226.5px 84.043px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 453px !important; height: 168px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 16; text-align: left; line-height: 1.69; padding: 8px;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li>Source = Kaggle</li>
+	<li>Contained what I wanted</li>
+	<li>Took a bit of cleaning</li>
+</ul>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" data-name="image-d79257" data-block-id="7b7a1bd3bc5be8c9c49155ea814b7e16" style="width: 465.72px; height: 201.731px; left: 487.14px; top: 435.769px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 17;" data-maintain-ar="false"><img style="" data-natural-width="1874" data-natural-height="518" data-lazy-loaded="" data-src="bold/a9fd4200aee0a164228e5b61a28645a5.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-4d7951" data-block-id="ccd27b285dd3d3969a25816980cd3477" style="width: 403.201px; height: 215.16px; left: 43px; top: 406.394px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1576" data-natural-height="841" data-lazy-loaded="" data-src="bold/768914c63b1664e7a26f0c60f5a89783.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="4549ebc82b541a42929a1821b54b191e">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 3px; height: auto;" data-name="text-c29943" data-block-id="1e5ec416468ec92c185cd6e747eb028a"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Structure/Format</strong></h2>
+</div></div>
+
+
+
+
+
+<div class="sl-block" data-block-type="image" data-name="image-37a574" data-block-id="a7f4dd46d73836c950f062efa8c9da04" style="width: 485.125px; height: 490px; left: 0.295px; top: 140px;"><div class="sl-block-content" style="z-index: 11;" data-maintain-ar="false"><img style="" data-natural-width="1918" data-natural-height="1085" data-lazy-loaded="" data-src="bold/71f5dc63931c67082d6ffec829e553a6.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-310931" data-block-id="9eec2e52d243c0f15143860f4c52b628" style="width: 474.579px; height: 490px; left: 485.421px; top: 140px;"><div class="sl-block-content" style="z-index: 12;" data-maintain-ar="false"><img style="" data-natural-width="2025" data-natural-height="987" data-lazy-loaded="" data-src="bold/845d8dfa6cb6aacbab926c686e13d189.png"></div></div></section></section><section data-background-color="rgb(0, 0, 0)" data-id="296f46932d01aba774e51a0bd2ac8376"><div class="sl-block" data-block-type="text" style="width: 774.07px; left: 59px; top: 163.5px; height: auto;" data-block-id="f66c55a833c040f97194fd94e99917cc">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 774px !important; height: 309px !important; transform: none !important; transform-origin: 387.031px 154.434px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 774px !important; height: 309px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">That future stats won't affect past events</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:39.6px">That all the target column will be evenly split</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:1.2em">That the model will process fighters with more experience just like it will do with fighters with less experience</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:39.6px">That I had the most important features I need to make a good prediction</span></li>
+</ul>
+</div>
+</div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="46eb71089feb61f2d711e48f3f7a7455">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Assumptions</strong></h2>
+</div>
+</div></section><section class="stack" data-id="eecd1a0a2dced93964c88090b361bae0"><section data-background-color="rgb(0, 0, 0)" data-id="2cf5448fadc6cef6d6a020b8c738daf8"><div class="sl-block" data-block-type="text" style="width: 581px; left: 59px; top: 163.5px; height: auto;" data-block-id="08ae0b4c34115827a9349b7d3fed2173">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 581px !important; height: 445px !important; transform: none !important; transform-origin: 290.5px 222.406px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 581px !important; height: 445px !important;"><canvas class="lt-highlighter__canvas" width="77" height="39" style="display: none; top: 392px !important; left: 204px !important;"></canvas></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li class="fragment" data-fragment-index="0">Fighters: 3741 Rows
+	<ul>
+		<li class="fragment" data-fragment-index="0">Name Duplicates (1 Row)</li>
+		<li class="fragment" data-fragment-index="0">Missing Stats (642 Rows)</li>
+		<li class="fragment" data-fragment-index="0">Missing DOB (347 Rows)</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">Explanation:
+	<ul>
+		<li class="fragment" data-fragment-index="1">Other Promotions Acquisition</li>
+		<li class="fragment" data-fragment-index="1">Fight Pass Promotions</li>
+		<li class="fragment" data-fragment-index="1">Before Zuffa Purchase (2000)</li>
+	</ul>
+	</li>
+</ul>
+</div>
+</div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="94548c02a0f5f50b59b061351aea37e4">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Fighters Amputations &amp; Why</strong></h2>
+</div>
+</div></section><section data-background-color="rgb(0, 0, 0)" data-id="b172e491af445526ee3990e327c2d39a">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-146e06" style="height: auto;" data-block-id="edac7691e5856c7e3b330093bba1429b"><div class="sl-block-content sl-block-group-content" style="transform-origin: 480px 490px; z-index: 10; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 289.683px; height: 119px; left: 335.159px; top: 430.5px;" data-name="shape-8fd0b8" data-block-id="6eef5b0624ed436147c5be4976ab8c43"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 11;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 290 119"><rect width="289.683" height="119" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 192.474px; left: 368.897px; top: 492.5px; height: auto;" data-name="text-03e418" data-block-id="a5dcaa79ea79d2282b30fa55fa894926"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 12; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>#2</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 200.8px; left: 368.897px; top: 455.5px; height: auto;" data-name="text-b21b2c" data-block-id="c055d2cc6f4dd4ce0f4c8bd527beb918"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 13; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Grappling Stats</h2>
+</div></div>
+</div></div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-2081df" data-block-id="6b075631bb5ac0673ff953e204b7caea"><div class="sl-block-content sl-block-group-content" style="transform-origin: 111.615px 132px; z-index: 14; transition-duration: 0.6s; transition-delay: 0.5s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 160px; height: 120px; left: 31.6152px; top: 72px;" data-name="shape-6003be" data-block-id="8905a5c7c54614976c5a38a02da5c91f"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 120"><rect width="160" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 114.286px; left: 54.4723px; top: 134px; height: auto;" data-name="text-d78035" data-block-id="bd6437c9151c09e7ba6c40394a2112f5"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 16; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>#1</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 114.286px; left: 54.4723px; top: 97px; height: auto;" data-name="text-84f3e6" data-block-id="04247275df875613acf31bbe05781866"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 17; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Names</h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-000099" data-block-id="43caf4c503d25ae91fd9dd0da632cd1a"><div class="sl-block-content sl-block-group-content" style="transform-origin: 840.771px 130px; z-index: 18; transition-duration: 0.6s; transition-delay: 0.7s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 159.511px; height: 120px; left: 761.016px; top: 70px;" data-name="shape-f12dda" data-block-id="8666fb59b237e1ec4fc210151f50d301"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 19;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 160 120"><rect width="159.511" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 113.937px; left: 783.803px; top: 132px; height: auto;" data-name="text-19af33" data-block-id="372e0d4d8950143ce57fae2d69fca42c"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 20; text-align: left; font-size: 60%; color: rgb(0, 0, 0);" dir="ui" data-placeholder-text="Text">
+<p>#3</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 113.937px; left: 783.803px; top: 95px; height: auto;" data-name="text-41de68" data-block-id="e7089bbef3d6bccf24e10d74851966ba"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 21; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Dob</h2>
+</div></div>
+</div></div>
+
+<div class="sl-block" data-block-type="image" data-name="image-15c92b" data-block-id="928a4b267dde42ce38a224ca3ca1e75d" style="width: 484.525px; height: 279.235px; left: 222.805px; top: 16.29px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 22;"><img style="" data-natural-width="1933" data-natural-height="1114" data-lazy-loaded="" data-src="bold/559d1e2121bbd1fdb2ca234e6a955e55.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-f8ecf6" data-block-id="54a180454bf343d27399fdfce401645f" style="width: 302.504px; height: 368.997px; left: 0px; top: 328.612px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 23;"><img style="" data-natural-width="828" data-natural-height="1010" data-lazy-loaded="" data-src="bold/9395c4fe116d40cab752606a4d812177.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-a98f1c" data-block-id="cdf61576b143c00be38dab1c41010ab9" style="width: 304px; height: 351.567px; left: 648px; top: 337.327px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 24;"><img style="" data-natural-width="850" data-natural-height="983" data-lazy-loaded="" data-src="bold/acc58d7c8c0417114fc8fae54a5e930d.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="ae49168092458ad6e30c115fd4c16099">
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="2ef0cb07455909d57e88453c3efdb46d">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Events Amputations &amp; Why</strong></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 661px; left: 59px; top: 163.5px; height: auto;" data-block-id="bc923b585344f8332e3ee48d6cc7245e" data-name="text-f5537c">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 581px !important; height: 445px !important; transform: none !important; transform-origin: 290.5px 222.406px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 581px !important; height: 445px !important;"><canvas class="lt-highlighter__canvas" width="77" height="39" style="display: none; top: 392px !important; left: 204px !important;"></canvas></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 11; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li class="fragment" data-fragment-index="0">Events: 6012 Rows
+	<ul>
+		<li class="fragment" data-fragment-index="0">No Winner  (110 Rows)</li>
+		<li class="fragment" data-fragment-index="0">Disqualification Win (18 Rows)</li>
+		<li class="fragment" data-fragment-index="0">Fighters Already Dropped (267 Rows)</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="1">Explanation:
+	<ul>
+		<li class="fragment" data-fragment-index="1">Draw or No contest (ex. Eye Poke)</li>
+		<li class="fragment" data-fragment-index="1">Change in Rules</li>
+	</ul>
+	</li>
+</ul>
+</div>
+</div></section></section><section data-background-color="rgb(0, 0, 0)" data-id="be1d36ec3a5c8150737337dc299bc6ac">
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 880px; left: 40px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="ddde13d8aa5e144a4d13ace02dce38b7">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 880px !important; height: 67px !important; transform: none !important; transform-origin: 440px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 880px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Merging Methodology</strong></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" data-name="image-c2f448" data-block-id="88b90c3bb9aabcf0bc634c7ca47a6dbb" style="width: 467.073px; height: 416.613px; left: 492.927px; top: 198.605px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1444" data-natural-height="1288" data-lazy-loaded="" data-src="bold/e7bc5d840f914ce293f0f3d2e093db9c.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-ddc886" data-block-id="cdb99b400cc053b648800a0127bd113a" style="width: 472.949px; height: 422.896px; left: 0px; top: 195.463px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1389" data-natural-height="1242" data-lazy-loaded="" data-src="bold/4d418e91a03af7471d393d51af562c62.png"></div></div></section><section class="stack" data-id="68e14f735376a0817d139330b5811972"><section data-background-color="rgb(0, 0, 0)" data-id="93aaf43cef17f313de006bea868ab4f4">
+<div class="sl-block" data-block-type="text" style="width: 344.906px; left: 307.547px; top: 0px; height: auto;" data-name="text-d18e72" data-block-id="a9f9aeb71296c8ade79a4586c1824e1b">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 345px !important; height: 87px !important; transform: none !important; transform-origin: 172.449px 43.3398px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 345px !important; height: 86px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 10; text-align: left; background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-size: 90%;" data-placeholder-text="Text" data-gramm="false">
+<h2>Fighters EDA</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" data-name="image-3ffa5d" data-block-id="ab35f3aebb7054be6468fa9d34677849" style="width: 643.62px; height: 276.774px; left: 158.19px; top: 95.8066px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1865" data-natural-height="802" data-lazy-loaded="" data-src="bold/46c1cc72b516d11dfa5fa990ec7de50f.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-992193" data-block-id="2ddc98c7a120df76cd55dd9d793fff91" style="width: 663.488px; height: 288.272px; left: 148.256px; top: 384.465px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1862" data-natural-height="809" data-lazy-loaded="" data-src="bold/7fc373dfdb08f25a04fd77b1c378930e.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="6b89d6f997aafac1bdf588ddf64a22f4">
+<div class="sl-block" data-block-type="text" style="width: 344.906px; left: 307.547px; top: 8.8066px; height: auto;" data-name="text-d18e72" data-block-id="259dd72d09928c41abe4e41dbd01418f">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 345px !important; height: 87px !important; transform: none !important; transform-origin: 172.449px 43.3398px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 345px !important; height: 86px !important;"></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 345px !important; height: 87px !important; transform: none !important; transform-origin: 172.449px 43.3398px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 345px !important; height: 86px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 10; text-align: left; background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-size: 90%;" data-placeholder-text="Text" data-gramm="false">
+<h2>Events EDA</h2>
+</div>
+</div>
+
+<div class="sl-block" data-block-type="image" data-name="image-b79797" data-block-id="68dc8d975fc4e486729b1ca0c9bc93e4" style="width: 669.147px; height: 518px; left: 145.427px; top: 161px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1306" data-natural-height="1011" data-lazy-loaded="" data-src="bold/adc0087972b01880e5736c3aa345b720.png"></div></div></section></section><section class="stack" data-id="a9533be5fd9efd29e839375e25eadd1f"><section data-background-color="rgb(0, 0, 0)" data-id="d5ee39b6042bba6b13c8864b9c25f36a"><div class="sl-block" data-block-type="text" style="width: 523.686px; left: 80px; top: 103.214px; height: auto;" data-block-id="e01be431e8b7272ab567567914687209">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 376px !important; height: 464px !important; transform: none !important; transform-origin: 187.75px 231.645px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 375px !important; height: 463px !important;"><canvas class="lt-highlighter__canvas" width="148" height="39" style="display: none; top: 110px !important; left: 49px !important;"></canvas></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li class="fragment" data-fragment-index="0">Target engineering </li>
+	<li class="fragment" data-fragment-index="1">Dealing with missingness:
+	<ul>
+		<li class="fragment" data-fragment-index="1">Reach</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="2">Feature filtering:
+	<ul>
+		<li class="fragment" data-fragment-index="2">Redundancy</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="3">Numeric feature engineering:
+	<ul>
+		<li class="fragment" data-fragment-index="3">Standardization</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="3">Categorical <span style="color:rgb(255, 255, 255)">feature engineering:</span>
+	<ul>
+		<li class="fragment" data-fragment-index="3">Label encoding</li>
+	</ul>
+	</li>
+	<li class="fragment" data-fragment-index="3"><span style="color:rgb(255, 255, 255)">Dimension Reduction </span></li>
+</ul>
+</div>
+</div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 0px; height: auto;" data-name="text-c29943" data-block-id="584285a6680191f0b426ab3d8bcd3a9e">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Target &amp; Feature Engineering</strong></h2>
+</div>
+</div></section><section data-background-color="rgb(0, 0, 0)" data-id="cc638eec8aa77e2d5731b61d7cd65fa7">
+
+
+<div class="sl-block" data-block-type="text" style="width: 280.838px; left: 339.581px; top: 3px; height: auto;" data-name="text-c29943" data-block-id="406b1e4508e2f3ecb840b1afbba7099d"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Dictionary</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-b25b23" data-block-id="398e5b106dfdae473925da125a76757b" style="width: 717.34px; height: 589.538px; left: 121.33px; top: 102.242px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1218" data-natural-height="1001" data-lazy-loaded="" data-src="bold/95754d4d6e78548d44b80bfc97ae9ae6.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="9f919f6983207b1fda8c0e3ce8426218">
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 936.352px; left: -0.0004px; top: 0px; height: auto;" data-name="text-c29943" data-block-id="a86ac756f2163dedc9f2187998003988"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Standardization (StandardScaler)</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-485d35" data-block-id="af98c429686560a93d116f56c93b7b9a" style="width: 449.537px; height: 431.132px; left: 15.2315px; top: 162.538px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1148" data-natural-height="1101" data-lazy-loaded="" data-src="bold/54deaa9685608fa86950b1c739777e78.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-4c58b7" data-block-id="3811890658f4ba3a433fee973caaa1dd" style="width: 453.121px; height: 431.132px; left: 493.44px; top: 162.538px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1154" data-natural-height="1098" data-lazy-loaded="" data-src="bold/f77f32214c9577b4579b7ee2d85378d0.png"></div></div></section></section><section data-background-color="rgb(0, 0, 0)" data-id="e0606dd6b3291e008829480b905f2dd3">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="a40db2576baf7cc9db1c3586f6eae521"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Challenges</strong></h2>
+</div></div>
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-fb20c8" style="height: auto;" data-block-id="d34114411e505a573828f181c5bbab95"><div class="sl-block-content sl-block-group-content" style="transform-origin: 199px 398px; z-index: 11; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 80px; top: 210px;" data-name="shape-e1e4ba" data-block-id="7f621d844e80bc7a86ea869480aa9fb2"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 80px; top: 354px; height: auto;" data-name="text-96a5c5" data-block-id="62e78697120f1d4735eb4ebf0191e679"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 16; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Data Scrape + Clean</strong></p>
+
+<p>By the time I finished scraping the fighter's stats, I was in too deep and wanted to also scrape the events. Meanwhile, kaggle was there all the time</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 80px; top: 210px; height: auto;" data-name="text-b45c7e" data-block-id="66d8e138a715bad0614515e310f1838e"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 17; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>1.</strong></h2>
+</div></div>
+</div></div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-6e52bc" data-block-id="8e86c266e55bb56dbb4232483c0c5283"><div class="sl-block-content sl-block-group-content" style="transform-origin: 480px 390px; z-index: 18; transition-duration: 0.7s; transition-delay: 0.4s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 361px; top: 210px;" data-name="shape-6cac13" data-block-id="6eed6df53121c8fe7984b7892fbab83d"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 361px; top: 354px; height: auto;" data-name="text-bb1ba6" data-block-id="50d60c3d4ca4f3be0f2c4e0a491bf73a"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 23; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Model Selection</strong></p>
+
+<p>I didn't think about how the model will work as much as I should've. Or what type of model to choose for the project.</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 361px; top: 210px; height: auto;" data-name="text-4e447a" data-block-id="37b4232b315883f330fff3b3bc589bd1"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 24; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>2.</strong></h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-e33cde" data-block-id="c9ef9ba8ba07e893b9096db63042f850"><div class="sl-block-content sl-block-group-content" style="transform-origin: 761px 390px; z-index: 25; transition-duration: 0.8s; transition-delay: 0.5s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 642px; top: 210px;" data-name="shape-fc8f7a" data-block-id="1da08e432cb42f4c1728ebe0492bd145"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 642px; top: 354px; height: auto;" data-name="text-a99bcf" data-block-id="6e454b8056266620a30e621933b6abf4"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 30; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Time Constraints</strong></p>
+
+<p>These last two weeks have been very hectic. As I had to study for a technical interview, drive to Riyadh, and talk at WDS</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 642px; top: 210px; height: auto;" data-name="text-ac45e0" data-block-id="acad663fe5c2b444bfb575235e0fc7b7"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 31; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>3.</strong></h2>
+</div></div>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="44c6f6b772f8456993e2c136ecf48078">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="67b58da1e05db8b8219273f59b30da4c">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Models Selected</strong></h2>
+</div>
+</div>
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-fb20c8" style="height: auto;" data-block-id="3999220be6c2499b1cad4a6da1da9a28"><div class="sl-block-content sl-block-group-content" style="transform-origin: 175.536px 390px; z-index: 11; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 250.207px; height: 360px; left: 50.4323px; top: 210px;" data-name="shape-e1e4ba" data-block-id="452e6f1bcf522cd814684640c7cfff76"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 250 360"><rect width="250.207" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 50.4323px; top: 354px; height: auto;" data-name="text-96a5c5" data-block-id="26dd7d3f4bd1587c1d2db92b58815def"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 16; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Logristic Regression</strong></p>
+
+<p>Chose because it's very simple, and fundemental in ML. So, it can be a baseline</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 50.4323px; top: 210px; height: auto;" data-name="text-b45c7e" data-block-id="01609cec764adecdb1b0f052bae18073"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 17; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>1.</strong></h2>
+</div></div>
+</div></div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-6e52bc" data-block-id="bd65ad66858f9e4421b95176d678f8bd"><div class="sl-block-content sl-block-group-content" style="transform-origin: 472.627px 390px; z-index: 18; transition-duration: 0.7s; transition-delay: 0.4s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 250.207px; height: 360px; left: 347.523px; top: 210px;" data-name="shape-6cac13" data-block-id="60cd4a501c2279ff5c97755a5c4e034e"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 250 360"><rect width="250.207" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 347.523px; top: 354px; height: auto;" data-name="text-bb1ba6" data-block-id="5c9bf63ed05d1358e31cc3c7e702841a"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 23; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Random Forest </strong></p>
+
+<p>It's one of the most used models in sport's analytics, and also one of the best performers in binary classification</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 347.523px; top: 210px; height: auto;" data-name="text-4e447a" data-block-id="2efd5881cea6f23ef31df5f2f0b808c8"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 24; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>2.</strong></h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-e33cde" data-block-id="124aac70ee3e26cf98b2f261f91a3dec"><div class="sl-block-content sl-block-group-content" style="transform-origin: 774.871px 390px; z-index: 25; transition-duration: 0.8s; transition-delay: 0.5s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 250.207px; height: 360px; left: 649.768px; top: 210px;" data-name="shape-fc8f7a" data-block-id="bbd28e11dbb5cb466f3724168881c862"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 250 360"><rect width="250.207" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 649.768px; top: 354px; height: auto;" data-name="text-a99bcf" data-block-id="6f6ba50bda6b87a8d83dd8cff461a567"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 30; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text">
+<p><strong>Support Vector Machine </strong></p>
+
+<p>I wanted to chose a new model, so I can challange myself and tryout models that could be better performing</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 250.207px; left: 649.768px; top: 210px; height: auto;" data-name="text-ac45e0" data-block-id="4bf14b97c1fa36f9609c0cd92f1987cb"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 31; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>3.</strong></h2>
+</div></div>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="930ddedcfea036d07c22298c75c8d00d">
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 880px; left: 39.9995px; top: 36.5px; height: auto;" data-name="text-c29943" data-block-id="1f31cf0ef04d8d34019c5f88e99338df"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>SVM</strong></h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-bd3183" data-block-id="1b859be2acc774770c12e9f0055d657e" style="width: 603.705px; height: 518px; left: 178.147px; top: 120.025px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="641" data-natural-height="550" data-src="bold/797511c0d3bf559147e5a3ba979ba6c3.png"></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-822c7c" data-block-id="3d1bbe9360079be8b091fe63c1a177b4" style="height: auto; width: 787.438px; left: 86.2805px; top: 648.794px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="font-size:0.5em">https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47</span></p>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="6e1b6537fd71da6fe2cd3895bb6150c7">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 36.5px; height: auto;" data-name="text-c29943" data-block-id="cd932b48974ad67c568445bfeb9584af">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Models ROC &amp; AUC</strong></h2>
+</div>
+</div>
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-146e06" style="height: auto;" data-block-id="6c5b1b81a8dd6987249bf7012b1575c1"><div class="sl-block-content sl-block-group-content" style="transform-origin: 146.009px 558.5px; z-index: 11; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 119px; left: 34.0085px; top: 499px;" data-name="shape-8fd0b8" data-block-id="53ac2f61a1a226aca4bc501f01fff451"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 119"><rect width="224" height="119" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 203.589px; left: 42.7045px; top: 536px; height: auto;" data-name="text-b21b2c" data-block-id="df4589d21e2db6531daaf04ebda6dd57"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 13; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Log Regression</h2>
+</div></div>
+</div></div>
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-2081df" data-block-id="9575653e1c9380bafd995f8e40ae681f"><div class="sl-block-content sl-block-group-content" style="transform-origin: 469.341px 554.5px; z-index: 14; transition-duration: 0.6s; transition-delay: 0.5s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 120px; left: 357.341px; top: 494.5px;" data-name="shape-6003be" data-block-id="9f41b087d06b8009e0d901ed4b114de9"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 120"><rect width="224" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 207.717px; left: 365.483px; top: 531.5px; height: auto;" data-name="text-84f3e6" data-block-id="f63d187192e6929691648b06a3fedfe5"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 16; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>Random Forest</h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-000099" data-block-id="2beec7c47d35d5f3d36c1521f76c1d63"><div class="sl-block-content sl-block-group-content" style="transform-origin: 800px 550px; z-index: 17; transition-duration: 0.6s; transition-delay: 0.7s;" data-animation-type="slide-up">
+<div class="sl-block" data-block-type="shape" style="width: 224px; height: 120px; left: 688px; top: 490px;" data-name="shape-f12dda" data-block-id="5f6f0879011f6c7d92e0fae9e1618081"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 18;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 224 120"><rect width="224" height="120" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 64.464px; left: 767.768px; top: 527px; height: auto;" data-name="text-41de68" data-block-id="120bc8ce94ef9f4b848f6674f7e95824"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 19; font-size: 50%; color: rgb(0, 0, 0);" data-placeholder-text="Text">
+<h2>SVM</h2>
+</div></div>
+</div></div>
+
+<div class="sl-block" data-block-type="image" data-name="image-fc2f54" data-block-id="86036ad37f46c783c5dca2709d4484ee" style="width: 292.017px; height: 220.6px; left: 6.65821px; top: 189.12px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 20;"><img style="" data-natural-width="920" data-natural-height="695" data-lazy-loaded="" data-src="bold/01f4e5d330ba84aa75f41681c0f2171a.png"></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-e7683d" data-block-id="a832536175b5841087cd804f6e15c0da" style="width: 283.147px; height: 225.499px; left: 327.768px; top: 186.671px; min-width: 1px; min-height: 1px;"><div class="sl-block-style" style="z-index: 21; transform: rotate(0deg);"><div class="sl-block-content" style="z-index: 21;"><img style="" data-natural-width="889" data-natural-height="708" data-lazy-loaded="" data-src="bold/eeec7ddba04d222a15eaa4c52ab62f27.png"></div></div></div>
+<div class="sl-block" data-block-type="image" data-name="image-e1ace6" data-block-id="f696ce1a866ef5665cfa3674898ad461" style="width: 282.829px; height: 223.049px; left: 658.585px; top: 189.121px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 22;"><img style="" data-natural-width="880" data-natural-height="694" data-lazy-loaded="" data-src="bold/175813a8a344b706c1ef76a64c4725c1.png"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="f18b26fe68ca8f999260ed168516b1f6"><div class="sl-block" data-block-type="text" style="width: 888px; left: 40px; top: 106.5px; height: auto;" data-name="text-c29943" data-block-id="82eeaec1b4f6cc0bf918ff9d33b7e970"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg);">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 888px !important; height: 67px !important; transform: none !important; transform-origin: 444px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 888px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Confusion Matrix Metrics</strong></h2>
+</div>
+</div></div>
+<div class="sl-block" data-block-type="table" data-name="table-324df5" data-block-id="5951dc0a8dd804ac17e01c76fe83423d" style="height: auto; min-width: 120px; width: 800px; left: 40px; top: 267px;"><div class="sl-block-content" style="z-index: 11;" data-table-cols="4" data-table-rows="5" data-table-border-width="3px" data-table-padding="15px"><table><tbody>
+<tr>
+<th style="border-width: 3px; padding: 15px;"></th>
+<th style="border-width: 3px; padding: 15px;">Log</th>
+<th style="border-width: 3px; padding: 15px;">RF</th>
+<th style="border-width: 3px; padding: 15px;">SVM</th>
+</tr>
+<tr>
+<td style="border-width: 3px; padding: 15px;">Precision</td>
+<td style="border-width: 3px; padding: 15px;">0.702</td>
+<td style="border-width: 3px; padding: 15px;">0.719</td>
+<td style="border-width: 3px; padding: 15px;">0.725</td>
+</tr>
+<tr>
+<td style="border-width: 3px; padding: 15px;">Recall</td>
+<td style="border-width: 3px; padding: 15px;">0.700</td>
+<td style="border-width: 3px; padding: 15px;">0.691</td>
+<td style="border-width: 3px; padding: 15px;">0.687</td>
+</tr>
+<tr>
+<td style="border-width: 3px; padding: 15px;">Precision</td>
+<td style="border-width: 3px; padding: 15px;">0.694</td>
+<td style="border-width: 3px; padding: 15px;">0.704</td>
+<td style="border-width: 3px; padding: 15px;">0.707</td>
+</tr>
+<tr>
+<td style="border-width: 3px; padding: 15px;">F1 Score</td>
+<td style="border-width: 3px; padding: 15px;">0.701</td>
+<td style="border-width: 3px; padding: 15px;">0.705</td>
+<td style="border-width: 3px; padding: 15px;">0.706</td>
+</tr>
+</tbody></table></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="621a1b6da2f058e6f4029ddcb9387029"><div class="sl-block" data-block-type="text" style="width: 679.027px; left: 59px; top: 163.5px; height: auto;" data-block-id="5dba1f3925ef4c857ae316d84867b11b"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg);">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 679px !important; height: 309px !important; transform: none !important; transform-origin: 339.512px 154.434px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 679px !important; height: 309px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<ul>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Similarity of different models results (Bayes' Theorem)</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Code inefficiency</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:1.2em">Number of models</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:1.2em">Lack of stacking ensemble ML</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:39.6px">Data bias</span></li>
+</ul>
+</div>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="188893e8c23f529f33e8092d740c7fb6"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Solution Problems</strong></h2>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="fb573a6999fd0f271c17c0fa8b81b188">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="3674aa92dfb8b5f2f77c2c868390a6b9">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Losses</strong></h2>
+</div>
+</div>
+
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-6e52bc" data-block-id="32d89b6e551c3852cb6d00008bea56c4"><div class="sl-block-content sl-block-group-content" style="transform-origin: 480px 390px; z-index: 15; transition-duration: 0.7s; transition-delay: 0.4s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 361px; top: 210px;" data-name="shape-6cac13" data-block-id="3e4ffee602e78e9d68453efcce7d11cc"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 16;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 361px; top: 354px; height: auto;" data-name="text-bb1ba6" data-block-id="baf7a2d4f9e96a1da796f5790ad255b0">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 18 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 238px !important; height: 185px !important; transform: none !important; transform-origin: 119px 92.4453px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 238px !important; height: 185px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 17; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text" data-gramm="false">
+<p><strong>Win/loss streak</strong></p>
+
+<p>I think streaks would've been a great feature, but unfortunately I couldn't figure out a way to calculate it,</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 361px; top: 210px; height: auto;" data-name="text-4e447a" data-block-id="927a6859c90b16aa8316267d5d281371"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 18; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>2.</strong></h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-block-id="8d196c71d45debde1f98b4224bca926c" data-name="group-38f2f1"><div class="sl-block-content sl-block-group-content" style="transform-origin: 201px 398px; z-index: 23; transition-duration: 0.8s; transition-delay: 0.5s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 82px; top: 210px;" data-origin-id="06b3c4253013726d84544eee6ba184fe" data-block-id="399677c9d3a0dd0006a39a888c80ff4f" data-name="shape-1e3c07"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 24;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 82px; top: 354px; height: auto;" data-origin-id="80f663e35fab56e7c18e5e4704c8bb25" data-block-id="4dbabb6b549c54498a488a534fdee2e1" data-name="text-d4c477">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 31 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 238px !important; height: 232px !important; transform: none !important; transform-origin: 119px 115.844px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 238px !important; height: 231px !important;"><canvas class="lt-highlighter__canvas" width="36" height="22" style="display: none; top: 72px !important; left: 19px !important;"></canvas></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 25; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text" data-gramm="false">
+<p><strong>Scraping Events</strong></p>
+
+<p>What wasted a lot of time in the beginning, was trying to scrape the events from the UFC stats web page. But it keeps only scraping the first event only</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 82px; top: 210px; height: auto;" data-origin-id="3353d6d9955a86f3f2d3133a8d504250" data-block-id="99cd8b02d4b73f23c3bde20d6649b3fb" data-name="text-3a015a"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 26; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>1.</strong></h2>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-block-id="07ea82252a24259183e74300ac3b15d4" data-name="group-11d460"><div class="sl-block-content sl-block-group-content" style="transform-origin: 759px 398px; z-index: 27; transition-duration: 0.6s; transition-delay: 0.3s;" data-animation-type="slide-up">
+
+<div class="sl-block" data-block-type="shape" style="width: 238px; height: 360px; left: 640px; top: 210px;" data-origin-id="9e747b407d8bb4bcf027636b80ecb5cf" data-block-id="279aa4827aa7fd8ce3a66d4ff6105e3c" data-name="shape-0bf6d5"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 28;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 238 360"><rect width="238" height="360" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 640px; top: 354px; height: auto;" data-origin-id="f01629d9de6441d9acf968e23a102dfc" data-block-id="ec6e0da71c033ffeba599a1a4fd8fd61" data-name="text-1116c3">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 14 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 238px !important; height: 232px !important; transform: none !important; transform-origin: 119px 115.844px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 238px !important; height: 231px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 29; text-align: left; font-size: 60%; color: rgb(0, 0, 0); padding: 20px;" data-placeholder-text="Text" data-gramm="false">
+<p><strong>Location EDA</strong></p>
+
+<p>I wanted to create a location map for the event's location. But, it didn't work because some location had different format than others (state, country...)</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 238px; left: 640px; top: 210px; height: auto;" data-origin-id="ee2b1702b0ab5e4c89fcf6b49ecdc96a" data-block-id="3fc81b17670cf82220c5176eb918fa82" data-name="text-469ab4"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 30; color: rgb(0, 0, 0); font-size: 140%; padding: 20px;" data-placeholder-text="Text">
+<h2><strong>3.</strong></h2>
+</div></div>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="0e01e6c420a54cc0906445248faeffed">
+
+
+<div class="sl-block" data-block-type="shape" style="width: 800px; height: 454px; left: 80px; top: 123px;" data-name="shape-a85c0a" data-block-id="8e9fe076037a2a37f169ea828a46b000"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 800 454"><rect width="800" height="454" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" data-name="text-b0f00c" style="height: auto; width: 714.461px; left: 122.769px; top: 272px;" data-block-id="fd20e5d4d00d25b20c9c90e3d88ba581">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 715px !important; height: 156px !important; transform: none !important; transform-origin: 357.23px 78px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 714px !important; height: 156px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-gramm="false">
+<h1><font color="#000000"><span style="font-size:120px">Conclusion</span></font></h1>
+</div>
+</div></section><section data-background-color="rgb(0, 0, 0)" data-id="6a0e82f88076d100cab44dd4c068d75c"><div class="sl-block" data-block-type="text" style="width: 501px; left: 59px; top: 210px; height: auto;" data-block-id="08e36850a3e6ba09526a8cc497c55330"><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text">
+<ul>
+	<li class="fragment" data-fragment-index="0" style="color:rgb(255, 255, 255)"><span style="font-size:1.2em">Rounds Prediction</span></li>
+	<li class="fragment" data-fragment-index="0" style="color:rgb(255, 255, 255)"><span style="font-size:1.2em">Win Type</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Other MMA promotions</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Different Sports</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Number of observations</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:1.2em">Number of features</span></li>
+</ul>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="6136d09535f4833a1e64ceea878ac5ff"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Applicability</strong></h2>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="4fdb1909b7afb38f6b76de38c325ba93"><div class="sl-block" data-block-type="line" data-name="line-238933" style="width: auto; height: auto; left: 0px; top: 486px;" data-block-id="c0c1c045dffed3a338ddd6b534558a3f"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="960" data-line-y2="0" data-line-color="#f2ede8" data-line-start-type="square" data-line-end-type="square" style="z-index: 10;" data-line-width="4px" data-line-style="solid"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="960" height="1" viewbox="0 0 960 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="6" y1="0" x2="954.0375" y2="0"></line><line class="line-element" stroke="#f2ede8" stroke-width="4" x1="6" y1="0" x2="954.0375" y2="0"></line><rect width="12" height="12" fill="#f2ede8" x="-6" y="-6" transform="translate(6,0) rotate(90)"></rect><rect width="12" height="12" fill="#f2ede8" x="-6" y="-6" transform="translate(954.0375,0) rotate(90)"></rect></svg></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-f42613" style="height: auto;" data-block-id="41641dc00159fd3a6b75456c41277e17"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 106px 569.25px; z-index: 11;" data-fragment-index="0">
+<div class="sl-block" data-block-type="shape" data-name="shape-fec14c" style="width: 24px; height: 24px; left: 94px; top: 474px;" data-block-id="a8c49d4b38a98a3c76798f7ee93ee567"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" data-name="line-ac1f70" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 106px; top: 486px;" data-block-id="aee3c82ddeb24c713c8fe1bb03002e54"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 12;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 6.1665px; top: 594.5px; height: auto;" data-name="text-3744dd" data-block-id="fdd60ab86083ebe22471acb145b672fa">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 19 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 70px !important; transform: none !important; transform-origin: 99.832px 35.0977px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 70px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 14; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Other MMA promotions fighters such as: (Bellator, PFL, ONE FC)</p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-2d96a5" style="height: auto;" data-block-id="7c847450cdc081eb338e88f8d87f39dd"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 244.999px 387px; z-index: 15;" data-fragment-index="1">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 233px; top: 474px;" data-name="shape-05b447" data-block-id="ad05cabd6312918e060790f0ca1ccfe6"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 17;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 245px; top: 391.5px;" data-name="line-aee647" data-block-id="7ef3bb6969745b83749155b29a56d607"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 16;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 145.166px; top: 276px; height: auto;" data-name="text-4e1d6f" data-block-id="9dd6567c6329bf254760d3b3ff8d088f">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 29 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 94px !important; transform: none !important; transform-origin: 99.832px 46.7969px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 93px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 18; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Other MMA sports such as: (Boxing, Kickboxing, Muay Thai, Wrestling, BJJ)</p>
+</div>
+</div>
+</div></div>
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-866a7e" data-block-id="22018b5c5acf4713f8200d9f9c56af4c"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 389.167px 569.25px; z-index: 19;" data-fragment-index="2">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 377.167px; top: 474px;" data-name="shape-238df7" data-block-id="5082c2979677aee203bd14fa299b807b"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 21;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 389.167px; top: 486px;" data-name="line-dff621" data-block-id="2ab9a10401f87e3a9d9de9d10f3d1e2c"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 289.333px; top: 594.5px; height: auto;" data-name="text-c80f6c" data-block-id="7b55499c7ff490b2c2678d6e1cbb0dd1">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 37 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 70px !important; transform: none !important; transform-origin: 99.832px 35.0977px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 70px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 22; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Adding more features such: (champion, streak, g&amp;p, control time… etc.) </p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-e39e51" data-block-id="6d32c9b42ad9a553a9788747185e914d"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 699.001px 569.25px; z-index: 23;" data-fragment-index="4">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 687px; top: 474px;" data-name="shape-fabd4e" data-block-id="d82382e5f68f2b06158bb11a10dbaef9"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 25;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 699px; top: 486px;" data-name="line-4540d1" data-block-id="08b3436b060a80feca9f65b03fb14233"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 24;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 599.167px; top: 594.5px; height: auto;" data-name="text-9b7ec7" data-block-id="fda5033818f4eaebf4855bbd54efd33e"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 26; text-align: center; font-size: 60%;" data-placeholder-text="Text">
+<p>Tune it so, it can be a more of a general sport analytics model </p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-9531dd" data-block-id="0ab6fab50fc1d0f9e06d97b0b0dfc893"><div class="sl-block-content sl-block-group-content fragment fade-in-then-semi-out" style="transform-origin: 542.002px 392.75px; z-index: 27;" data-fragment-index="3">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 530.001px; top: 474px;" data-name="shape-96b869" data-block-id="1930ab9ca07e19281c57ad7ccaa9d830"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 542.001px; top: 391.5px;" data-name="line-545aef" data-block-id="f7681d0149837f1d73381cd542fc827d"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 28;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 442.168px; top: 287.5px; height: auto;" data-name="text-69da15" data-block-id="206fe038e7375eca97d3cfe009a6dd6f">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 56 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 200px !important; height: 70px !important; transform: none !important; transform-origin: 99.832px 35.0977px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 199px !important; height: 70px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 30; text-align: center; font-size: 60%;" data-placeholder-text="Text" data-gramm="false">
+<p>Handling the time factor of fights, so future stats won't affect the past.</p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-f747fd" data-block-id="df672036449d73dcf779a262c295104d"><div class="sl-block-content sl-block-group-content fragment" style="transform-origin: 839.002px 386.75px; z-index: 31;" data-fragment-index="5">
+<div class="sl-block" data-block-type="shape" style="width: 24px; height: 24px; left: 827.001px; top: 474px;" data-name="shape-c906ee" data-block-id="792bebf9626381c89d924362c7ff94ea"><div class="sl-block-content" data-shape-type="diamond" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 33;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 24 24"><polygon points="24,12 12,24 0,12 12,0" class="shape-element" fill="rgb(255, 255, 255)"></polygon></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 839.001px; top: 391.5px;" data-name="line-a36683" data-block-id="d97b78788621f021c702d7605945c34f"><div class="sl-block-content" data-line-x1="0" data-line-y1="94.5" data-line-x2="0" data-line-y2="0" data-line-color="#ffffff" data-line-start-type="none" data-line-end-type="none" style="z-index: 32;" data-line-width="4px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="94.5" viewbox="0 0 1 94.5"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="94.5" x2="0" y2="0"></line><line class="line-element" stroke="#ffffff" stroke-width="4" x1="0" y1="94.5" x2="0" y2="0"></line></svg></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 199.667px; left: 739.168px; top: 275.5px; height: auto;" data-name="text-452c90" data-block-id="3d0738e45ba5770ca049f2b4f9287623"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 34; text-align: center; font-size: 60%;" data-placeholder-text="Text">
+<p>Modify the model, and create a web app, to test out unique fights outcome</p>
+</div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="0e1f20e3067d3fc0b040ac6d07a3cc2e"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: center; z-index: 35; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Future Development</strong></h2>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="c1012734e72ec466820f6b2b25c8c475"><div class="sl-block" data-block-type="text" style="width: 677.339px; left: 59px; top: 163.5px; height: auto;" data-block-id="a4530dfa26248c6b2385624bd6047478"><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<span style="font-size:1.0em">MMA prediction is not that simple, because of the complexity of the sport, but extreme winners and extreme losers exist in </span>every sport</li>
+	<li class="fragment" data-fragment-index="0">Coding != Data science</li>
+	<li class="fragment" data-fragment-index="0">Machine learning is not just plugging numbers</li>
+	<li class="fragment" data-fragment-index="0">You are never really finish a data science project</li>
+</ul>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="4439aa07dc02a0ddbe6ff93465d9c9cb"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>Main Takeaways</strong></h2>
+</div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="8440ddba4c399775bb25dd32bb08e3cd">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 830px; left: 50px; top: 51.5px; height: auto;" data-name="text-e07d03" data-block-id="f5c6199e230ee72851c228132e991e2b">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 830px !important; height: 67px !important; transform: none !important; transform-origin: 415px 33.3438px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 830px !important; height: 66px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<h2><strong>Thank YOU </strong></h2>
+</div>
+</div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-825dd5" style="height: auto;" data-block-id="ad97918426c59a785e15f50a65ae62b8"><div class="sl-block-content sl-block-group-content" style="transform-origin: 274px 297.5px; z-index: 11;">
+<div class="sl-block" data-block-type="shape" style="width: 228px; height: 195px; left: 160px; top: 200px;" data-name="shape-aee9ec" data-block-id="83aa6a5b1f12d9577acc19d88d26e7ce"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 228 195"><rect width="228" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 160px; top: 332px; height: auto;" data-name="text-45906b" data-block-id="e2b3486af3bcb5b77c36a51d1111823d">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 17 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 63px !important; transform: none !important; transform-origin: 114px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 16; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p>MISK Skills</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 160px; top: 200px; height: auto;" data-name="text-56e513" data-block-id="d72173dcba9b282ca9f7b1076585d3ef">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 18 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 63px !important; transform: none !important; transform-origin: 114px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 17; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p><strong><span>#1</span></strong></p>
+</div>
+</div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-288568" data-block-id="bfdf1584995a982f35e6ff4320254939" data-locked="true"><div class="sl-block-content sl-block-group-content" style="transform-origin: 606px 297.5px; z-index: 18;">
+<div class="sl-block" data-block-type="shape" style="width: 228px; height: 195px; left: 492px; top: 200px;" data-name="shape-ebe059" data-block-id="1014938f70a719d07e76b35da1abcf3f"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 22;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 228 195"><rect width="228" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 492px; top: 332px; height: auto;" data-name="text-8566c5" data-block-id="ec385959a04b0a2cc32ec4486a0ec289">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 24 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 63px !important; transform: none !important; transform-origin: 114px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 23; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p>Dr. Rick</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 492px; top: 200px; height: auto;" data-name="text-1246c3" data-block-id="9630d9d8b3115b89599b67c8732eb0ff"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 24; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#2</span></strong></p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-d3548b" data-block-id="fc6338d7da90a75c78bc747b686b769d" data-locked="true"><div class="sl-block-content sl-block-group-content" style="transform-origin: 274px 517.5px; z-index: 25;">
+<div class="sl-block" data-block-type="shape" style="width: 228px; height: 195px; left: 160px; top: 420px;" data-name="shape-938bf5" data-block-id="ddcdfc8d9a08307b76a1fac5fcdc6698"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 228 195"><rect width="228" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 160px; top: 552px; height: auto;" data-name="text-58342f" data-block-id="8e3aaea189ddbd5251b3fa00ca901371">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 31 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 63px !important; transform: none !important; transform-origin: 114px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 30; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p><span>Lujain</span></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 160px; top: 420px; height: auto;" data-name="text-54cf88" data-block-id="0156a12d2936e27b6f2aca22a9b956e5"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 31; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#3</span></strong></p>
+</div></div>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" style="height: auto;" data-name="group-bde822" data-block-id="b5850d1d5eeafd6861b11fa777dd1f2c" data-locked="true"><div class="sl-block-content sl-block-group-content" style="transform-origin: 606px 517.5px; z-index: 32;">
+<div class="sl-block" data-block-type="shape" style="width: 228px; height: 195px; left: 492px; top: 420px;" data-name="shape-f862e2" data-block-id="0d8757793ace4e2536af9778d6588fa7"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#ffffff" data-shape-stretch="true" style="z-index: 36;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 228 195"><rect width="228" height="195" rx="0" ry="0" class="shape-element" fill="#ffffff"></rect></svg></div></div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 492px; top: 552px; height: auto;" data-name="text-87394b" data-block-id="3b0bb10a7f82c570b20cd7d833a3adae">
+<lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 38 !important;"><lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 228px !important; height: 63px !important; transform: none !important; transform-origin: 114px 31.3047px !important; zoom: 1 !important;"><lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 228px !important; height: 62px !important;"></lt-div></lt-div></lt-highlighter><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 37; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+<p>Class</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 228px; left: 492px; top: 420px; height: auto;" data-name="text-4108a1" data-block-id="843d3f8780752a1f1463ce38edf3040e"><div class="sl-block-content" data-placeholder-tag="p" style="text-align: left; z-index: 38; font-size: 110%; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-width: 4px; padding: 12px; line-height: 1.17; border-color: rgb(0, 0, 0);" data-has-line-height="" data-placeholder-text="Text">
+<p><strong><span>#4</span></strong></p>
+</div></div>
+</div></div>
+
+</section><section data-background-color="rgb(0, 0, 0)" data-id="3ca632e7308f6235ab1b9f6fdbf6efa7">
+
+<div class="sl-block" data-block-type="text" style="width: 187.584px; left: 21.7476px; top: 76.5px; height: auto;" data-name="text-bad4e5" data-block-id="07df8534d403d9757cc7a44cbfa6f5a5"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 10; padding: 10px; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h1><span style="font-size:2.0em"><strong>Q&amp;A</strong></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-name="image-f75e81" data-block-id="e5ad3cbf21d2a78197443b930937a2d7" style="width: 686.851px; height: 518px; left: 240px; top: 91px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="480" data-natural-height="362" data-lazy-loaded="" data-src="bold/2b3d52f829d9a7a68ee99bb083b3b37e.gif"></div></div></section><section data-background-color="rgb(0, 0, 0)" data-id="025d92dc42328ac71d7eed21ced0b598"><div class="sl-block" data-block-type="text" style="width: 741px; left: 59px; top: 163.5px; height: auto;" data-block-id="ed0730684dcc1873d322a9d15461cd16"><div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text">
+<ul>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Wrestling: https://www.verywellfit.com/common-wrestling-injuries-3120257</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Boxing: https://www.britannica.com/biography/Muhammad-Ali-boxer</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Taekwondo: https://sco.wikipedia.org/wiki/Taekwondo</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Misk: https://misk.org.sa/en/</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Ufc:https://wallpaperaccess.com/ufc-logo</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">WWE game: https://en.wikipedia.org/wiki/WWE_SmackDown!_Here_Comes_the_Pain</span></li>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.5em">Arrow: https://commons.wikimedia.org/wiki/File:Feather-arrows-arrow-left.svg</span></li>
+</ul>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 49.5px; height: auto;" data-name="text-c29943" data-block-id="b25c528c2ba5a465b4f479bd36e41759"><div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text">
+<h2><strong>References</strong></h2>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":2353014,"slug":"bold","title":"Capstone","description":"","width":960,"height":700,"margin":0.05,"visibility":"self","published_at":"2021-11-29T18:29:18.561Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/fa0e860706606c7f37b719cc7c3fa8b3/thumb.jpg?1646747871","view_count":0,"user":{"id":2080576,"username":"khalidalharthi","name":"Khalid Alharthi","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a-/AOh14GhtoOeKg9aQE4i5-cBojQDWNbwiNQMuNKZB3iP7=s96-c","account_type":"pro","team_id":null,"settings":{"id":29359518,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"helvetica","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":37,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":3,"data_updated_at":1646757721166,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
