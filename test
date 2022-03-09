@@ -1,0 +1,50 @@
+<div class="sl-block" data-block-type="text" style="width: 523.686px; left: 80px; top: 103.214px; height: auto;" data-block-id="e01be431e8b7272ab567567914687209">
+    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 11 !important;">
+        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 376px !important; height: 464px !important; transform: none !important; transform-origin: 187.75px 231.645px !important; zoom: 1 !important;">
+            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 375px !important; height: 463px !important;"><canvas class="lt-highlighter__canvas" width="148" height="39" style="display: none; top: 110px !important; left: 49px !important;"></canvas></lt-div>
+        </lt-div>
+    </lt-highlighter>
+    <div class="sl-block-content" data-placeholder-tag="ul" style="z-index: 10; text-align: left; border-width: 1px; line-height: 1.56; font-size: 110%;" dir="ui" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+        <ul>
+            <li class="fragment" data-fragment-index="0">Target engineering&nbsp;</li>
+            <li class="fragment" data-fragment-index="1">Dealing with missingness:
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Reach</li>
+                </ul>
+            </li>
+            <li class="fragment" data-fragment-index="2">Feature filtering:
+                <ul>
+                    <li class="fragment" data-fragment-index="2">Redundancy</li>
+                </ul>
+            </li>
+            <li class="fragment" data-fragment-index="3">Numeric feature engineering:
+                <ul>
+                    <li class="fragment" data-fragment-index="3">Standardization</li>
+                </ul>
+            </li>
+            <li class="fragment" data-fragment-index="3">Categorical <span style="color:rgb(255, 255, 255)">feature engineering:</span>
+                <ul>
+                    <li class="fragment" data-fragment-index="3">Label encoding</li>
+                </ul>
+            </li>
+            <li class="fragment" data-fragment-index="3"><span style="color:rgb(255, 255, 255)">Dimension Reduction </span></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 0px; height: auto;" data-name="text-c29943" data-block-id="584285a6680191f0b426ab3d8bcd3a9e">
+    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;">
+        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;">
+            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div>
+        </lt-div>
+    </lt-highlighter>
+    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;">
+        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 67px !important; transform: none !important; transform-origin: 400px 33.3438px !important; zoom: 1 !important;">
+            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 66px !important;"></lt-div>
+        </lt-div>
+    </lt-highlighter>
+    <div class="sl-block-content" data-placeholder-tag="h2" style="text-align: left; z-index: 11; line-height: 1.17;" data-has-line-height="" data-placeholder-text="Text" data-gramm="false">
+        <h2><strong>Target &amp; Feature Engineering</strong></h2>
+    </div>
+</div>
