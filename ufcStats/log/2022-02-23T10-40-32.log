@@ -1,0 +1,2 @@
+2022-02-23 10:40:32 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: ufcStats)
+2022-02-23 10:40:32 [scrapy.utils.log] INFO: Versions: lxml 4.7.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.1 (v3.10.1:2cd268a3a9, Dec  6 2021, 14:28:59) [Clang 13.0.0 (clang-1300.0.29.3)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform macOS-12.0.1-x86_64-i386-64bit
