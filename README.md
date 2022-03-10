@@ -1,47 +1,53 @@
 # UFC_ML_Prediction
+
 Repository for MISK DSI Capstone Project
 
 
-<div class="sl-block" data-block-type="text" style="width: 800px; left: 79px; top: 70px; height: auto;" data-block-id="7432ca92f7ad5ad2d45005b4d88a9e55">
-    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;">
-        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 159px !important; transform: none !important; transform-origin: 400px 79.125px !important; zoom: 1 !important;">
-            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 165px !important;"></lt-div>
-        </lt-div>
-    </lt-highlighter>
-    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;">
-        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 386px !important; transform: none !important; transform-origin: 400px 192.75px !important; zoom: 1 !important;">
-            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 385px !important;"></lt-div>
-        </lt-div>
-    </lt-highlighter>
-    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 12 !important;">
-        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 555px !important; transform: none !important; transform-origin: 400px 277.125px !important; zoom: 1 !important;">
-            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 554px !important;"></lt-div>
-        </lt-div>
-    </lt-highlighter>
-    <div class="sl-block-content" data-placeholder-tag="h1" style="z-index: 11; font-size: 200%; text-align: left; color: rgb(0, 0, 0); line-height: 0.975; letter-spacing: -0.1em; padding: 6px;" data-has-line-height="" data-has-letter-spacing="" dir="ui" data-placeholder-text="Text" data-gramm="false">
-        <h1><strong>&nbsp; &nbsp; &nbsp;</strong></h1>
+### Topic Choice
 
-        <h3><strong>ML Fight Win/Loss Binary Classification</strong></h3>
+I have been a fan of WWE  for as long as I remember. Until I knew it was fake :(. Just like many of you, choosing the capstone topic was very easy (not) for me, but overall I was glad about the result because I challenged myself a lot in this project. And to me
 
-        <p>&nbsp;</p>
-    </div>
-</div>
+Challenge = Growth
 
-<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 524px; height: auto;" data-name="text-d18e72" data-block-id="21954f576c1e7b48be6c1dd66e5cd953">
-    <lt-highlighter contenteditable="false" class="lt--mac-os" data-cke-temp="1" style="display: none; z-index: 13 !important;">
-        <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 800px !important; height: 68px !important; transform: none !important; transform-origin: 400px 33.9336px !important; zoom: 1 !important;">
-            <lt-div class="lt-highlighter__scrollElement" style="top: 0px !important; left: 0px !important; width: 800px !important; height: 68px !important;"></lt-div>
-        </lt-div>
-    </lt-highlighter>
-    <div class="sl-block-content" data-placeholder-tag="h2" style="z-index: 12; text-align: left; padding: 8px; font-size: 70%;" data-placeholder-text="Text" data-gramm="false">
-        <h2>Khalid Alharthi</h2>
-    </div>
-</div>
-<div class="sl-block" data-block-type="shape" style="width: 800px; height: 454px; left: 80px; top: 70px;" data-name="shape-a85c0a" data-block-id="f6af0f1ad55a34d732c90566d4c214ee">
-    <div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 800 454">
-            <rect width="800" height="454" rx="0" ry="0" class="shape-element" fill="rgb(255, 255, 255)"></rect>
-        </svg></div>
-</div>
-<div class="sl-block" data-block-type="image" data-name="image-0c5fff" data-block-id="6d5b7681398f5f17dbb4fca5a6a7ac6b" style="width: 323.2px; height: 110.017px; left: 88.3789px; top: 114.36px; min-width: 1px; min-height: 1px;">
-    <div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="2500" data-natural-height="851" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/2080576/images/9384036/2560px-UFC_logo.svg.png"></div>
-</div>
+### Goal/Question
+
+1- Can a model predict the winner of an MMA fight based on certain features?
+
+2- Which of those feature seems to have the most effect on those model?
+
+## Solution Steps
+
+1. Choose what I want to predict exactly. (Decision round scores, fight general outcome, or fight win/lose outcome) (5%)
+2. Collect the data that fits my goal/question (30%)
+3. Clean that data to fit my modeling process + Feature engineering (30%) 
+4. Exploratory Data Analysis (5%)
+5. Model selection, training, evaluation, and parameter tuning (%20)
+6. Presenting the project (%10) 
+
+### Assumptions:
+
+- That future stats won't affect past events
+- That all the target column will be evenly split
+- That the model will process fighters with more experience just like it will do with fighters with less experience
+- That I had the most important features I need to make a good prediction
+
+### Models Selected
+
+1. Logristic Regression
+
+Chose because it's very simple, and fundemental in ML. So, it can be a baseline
+
+2. Random Forest
+
+It's one of the most used models in sport's analytics, and also one of the best performers in binary classification
+
+3. Support Vector Machine
+
+I wanted to chose a new model, so I can challange myself and tryout models that could be better performing
+
+## Main Takeaways
+
+- MMA prediction is not that simple, because of the complexity of the sport, but extreme winners and extreme losers exist in every sport
+- Coding != Data science
+- Machine learning is not just plugging numbers
+- You are never really finish a data science project
